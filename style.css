@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navv{
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navv img{
+    height: 40px;
+    margin-left: 34px;
+
+}
+.navv ul {
+    display: flex;
+    list-style: none;
+    gap: 80px;
+    text-transform: capitalize;
+    font-weight: 450;
+    font-size: 0.9rem;
+    margin-left: 90px;
+}
+.navv ul li:nth-child(1){
+    color: orangered;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.mainn{
+    display: flex;
+
+}
+.left {
+    display: flex;
+    flex-direction:column;
+    margin-left: 60px;
+    margin-top: 70px;
+    line-height: 1.5;
+}
+.left h2{
+    font-weight: 450;
+    font-size: 1.9rem;
+    text-transform: capitalize;
+
+}
+.left span img {
+    height: 30px;
+
+}
+.left h1{
+    font-size: 4rem;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+}
+
+.left1 {
+    display: flex;
+    flex-direction: column;
+   margin-left: 50px;
+   text-transform: capitalize;
+   font-weight: 400;
+   row-gap: 20px;
+}
+.left1 img  {
+    background-color: orangered;
+    border: none;
+    padding: 4px 4px;
+    border-radius: 50%;
+    object-fit: cover;
+    height: 10px;
+    margin-right: 8px;
+    width: 25px;
+
+    
+
+    }
+    .left p{
+        margin-top: 30px;
+        text-transform: capitalize;
+        font-weight: 300;
+        font-size: 0.8rem;
+    }
+    
+.left-button {
+                display: flex;
+                align-items: center;
+                margin-top: 30px;
+                gap: 60px;
+                
+}
+.left-button button {
+                    width: 150px;
+                    height: 40px;
+                    text-transform: capitalize;
+                    background-color: orangered;
+                    border: none;
+                    border-radius: 20px;
+                    color: white;
+                    letter-spacing: 1px;
+}
+.right {
+    display: flex;
+    align-items: center;
+    
+}
+
